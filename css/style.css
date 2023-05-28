@@ -1,0 +1,161 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #CFCFCF;
+	font-family: system-ui;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.main {
+	height: 1870px;
+	width: 800px;
+	background-color: #ffffff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	margin: 20px auto;
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+	backdrop-filter: blur(5px);
+}
+
+.top-section {
+	background-color: #333333;
+	text-align: center;
+	padding: 20px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.profile {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+	object-position: center;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.p1 {
+	color: #ffffff;
+	font-size: 40px;
+	font-weight: bold;
+	margin: 0;
+	margin-top: 10px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.p1 span {
+	font-weight: 100;
+	color: #b3b3b3;
+}
+
+.p2 {
+	font-size: 20px;
+	color: #b3b3b3;
+	margin: 0;
+	margin-top: 10px;
+}
+
+
+.col-div-4 {
+	width: 35%;
+	float: left;
+}
+
+.col-div-8 {
+	width: 62%;
+	float: left;
+}
+
+.line {
+	border-left: 1px solid #b3b3b3;
+	height: 1565px;
+	width: 2%;
+	margin-top: 30px;
+	float: left;
+}
+
+.content-box {
+	padding: 20px;
+}
+
+.head {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #333333;
+	margin-bottom: 10px;
+}
+
+.p3 {
+	color: #7b7b7b;
+	margin-bottom: -5px;
+}
+
+.fa {
+	color: #333333;
+}
+
+.skills {
+	margin-left: -20px;
+	margin-bottom: 10px;
+	list-style: none;
+	padding-left: 0;
+}
+
+.skills li {
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 20px;
+	background-color: #f2f2f2;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}
+
+.skills li span {
+	color: #7b7b7b;
+}
+
+.p-4 {
+	font-size: 14px;
+	color: #7b7b7b;
+}
+
+.social-link {
+	color: #7b7b7b;
+	text-decoration: none;
+}
+
+.social-link:hover {
+	color: #333333;
+}
+
+.project-link {
+	color: black;
+	text-decoration: none;
+}
+
+.project-link:hover {
+	text-decoration: underline;
+}
+
+.contact {
+	color: #7b7b7b;
+	text-decoration: none;
+}
+
+.contact:hover {
+	color: #333333;
+}
+
+.e-link {
+	color: #7b7b7b;
+	text-decoration: none;
+}
+
+.e-link:hover {
+	color: #333333;
+}
